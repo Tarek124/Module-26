@@ -12,6 +12,9 @@ console.log(heroPerson)
 const friendlyPerson = new Person("Tarek", "Abdullah", 2324)
 const fullName = friendlyPerson.firstName + " " + friendlyPerson.lastname;
 
+function add(a, b) {
+    return a + b;
+}
 
 console.log(fullName)
 console.log(friendlyPerson)

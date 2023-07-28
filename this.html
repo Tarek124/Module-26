@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is not confused anymore</h1>
+    <script>
+        const myObj = {
+            name: "tarek",
+            getFullName: function () {
+                console.log(this)
+                return 'Mr. ' + this.name
+            }
+        }
+        // var result = myObj.getFullName()
+        // console.log(result)
+
+        const anotherObj = {
+            name: "Biddut Ali"
+        }
+        anotherObj.getFullName = myObj.getFullName;
+        console.log(anotherObj.getFullName)
+    </script>
+</body>
+
+</html>
