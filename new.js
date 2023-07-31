@@ -18,3 +18,4 @@ function add(a, b) {
 
 console.log(fullName)
 console.log(friendlyPerson)
+
